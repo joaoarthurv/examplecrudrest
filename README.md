@@ -1,6 +1,6 @@
 # Descrição 
 
-Essa aplicação tem como objetivo demonstrar os conceitos básicos de uma construção de solução utilizando API-Rest, SpringBoot, JAVA, MYSQL. 
+Essa aplicação tem como objetivo demonstrar os conceitos básicos de uma construção de solução utilizando API-Rest, SpringBoot, JAVA, MYSQL, padrões de projeto, entre outros. 
 
 # Diagrama de class do projeto 
 
