@@ -26,9 +26,14 @@ Essa aplicação tem como objetivo demonstrar os conceitos básicos de uma const
 ![image](https://user-images.githubusercontent.com/34632499/150700307-dce47f8c-ac1c-4b2a-9feb-9b42945b0cef.png)
 
 
-## Bônus: Construção de uma solução para captar erros globais da aplicação e logar uma mensagem específica:
+## Bônus: (Construção de uma solução para captar erros globais da aplicação e logar uma mensagem específica)
 
 ![image](https://user-images.githubusercontent.com/34632499/150700343-9ed7f59a-0003-41a3-981f-7f81fbed3ee3.png)
+
+## Bônus: (Login usuário) 
+
+![image](https://user-images.githubusercontent.com/34632499/150700947-df197586-e9e7-48f5-a541-45ebe8180da5.png)
+
 
 # Imagem das tabelas do banco MYSQL criadas pela aplicação
 
