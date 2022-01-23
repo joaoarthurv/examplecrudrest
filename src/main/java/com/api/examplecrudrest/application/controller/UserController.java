@@ -33,8 +33,14 @@ public class UserController {
     }
 
     @DeleteMapping("/{email}")
-    public ResponseEntity<?> deleteUser(@PathVariable String email) {
+    public ResponseEntity<String> deleteUser(@PathVariable String email) {
         userService.deleteUser(email);
         return ResponseEntity.ok().body("Delete");
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<Boolean> login(@RequestBody UserDTO userDTO){
+       Boolean loginResponse = userService.login(userDTO);
+        return ResponseEntity.ok().body(loginResponse);
     }
 }
