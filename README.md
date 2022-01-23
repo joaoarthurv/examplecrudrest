@@ -4,7 +4,7 @@ Essa aplicação tem como objetivo demonstrar os conceitos básicos de uma const
 
 # Diagrama de class do projeto 
 
-![image](https://user-images.githubusercontent.com/34632499/150700652-89944177-2327-49c8-90b2-47c6621b2eb0.png)
+![image](https://user-images.githubusercontent.com/34632499/150701538-ab2a2299-5632-40da-8b66-205168511973.png)
 
 
 # Imagens da aplicação em execução (CRUD)
