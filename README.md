@@ -28,3 +28,12 @@ Essa aplicação tem como objetivo demonstrar os conceitos básicos de uma const
 ## Bônus: Construção de uma solução para captar erros globais da aplicação e logar uma mensagem específica:
 
 ![image](https://user-images.githubusercontent.com/34632499/150700343-9ed7f59a-0003-41a3-981f-7f81fbed3ee3.png)
+
+# Imagem das tabelas do banco MYSQL criadas pela aplicação
+
+## Tabela com as informações referentes ao usuário:
+![image](https://user-images.githubusercontent.com/34632499/150700405-4a3f29e4-cd4b-40df-a795-15e31e124bf0.png)
+
+## Tabela com as informações de um individuo que compôe o objeto usuário:
+![image](https://user-images.githubusercontent.com/34632499/150700414-e3f1deeb-38cc-476b-9738-796fb4ef1a9c.png)
+
