@@ -56,9 +56,19 @@ public class UserService {
     public void deleteUser(String email) {
         try {
             userRepository.deleteUser(email);
-        } catch (Exception e){
-            log.error("[UserService] - Error on function deleteUser. Email: {}",email);
+        } catch (Exception e) {
+            log.error("[UserService] - Error on function deleteUser. Email: {}", email);
             throw new ExampleCrudRestException(ErrorCodeDescription.BAD_REQUEST_FOR_DELETE_USER);
+        }
+    }
+
+    public Boolean login(UserDTO userDTO) {
+        try {
+            UserDTO response = getUser(userDTO.getUserEmail());
+            return response.getPassword().equalsIgnoreCase(userDTO.getPassword());
+        } catch (Exception e) {
+            log.error("[UserService] - Error on function login. User: {} ", userDTO);
+            throw new ExampleCrudRestException(ErrorCodeDescription.NOT_FOUND_USER);
         }
     }
 }
